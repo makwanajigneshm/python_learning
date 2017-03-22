@@ -2,7 +2,7 @@ import sys
 from lxml import html
 import requests,bs4
 #Redirect output to the file
-sys.stdout = open('D:\\Users\\jmakwana\\Documents\\myscript\\a.txt', 'w')
+sys.stdout = open('D:\\Users\\jmakwana\\Documents\\myscript\\episode_list.txt', 'w')
 #Open the web page
 page = requests.get('http://apne.tv/Hindi-Serial/episodes/Sher-E-Punjab-Maharaja-Ranjit-Singh')
 #BeautifulSoup parser 
